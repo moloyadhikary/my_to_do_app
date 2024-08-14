@@ -1,0 +1,66 @@
+name: my_to_do_app
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  bloc: ^8.1.4
+  flutter_bloc: ^8.1.6
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  dio: ^5.5.0+1
+  equatable: ^2.0.5
+  lottie: ^3.1.2
+  font_awesome_flutter: ^10.7.0
+  path_provider: ^2.1.4
+  loader_overlay: ^4.0.1
+  intl: ^0.19.0
+  uuid: ^4.4.2
+  humanize_duration: ^0.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  build_runner: ^2.4.12
+  hive_generator: ^2.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/
+  fonts:
+    - family: Lato
+      fonts:
+        - asset: assets/fonts/LatoMedium.ttf
+          weight: 500
+        - asset: assets/fonts/LatoRegular.ttf
+          weight: 400
+        - asset: assets/fonts/LatoBold.ttf
+          weight: 700
+        - asset: assets/fonts/LatoSemiBold.ttf
+          weight: 600 
+    - family: Outfit
+      fonts:
+        - asset: assets/fonts/OutfitBold.ttf
+          weight: 700
+        - asset: assets/fonts/OutfitMedium.ttf
+          weight: 500
+    - family: Ubuntu
+      fonts:
+        - asset: assets/fonts/UbuntuBold.ttf
+          weight: 300
+        - asset: assets/fonts/UbuntuRegular.ttf
+          weight: 400
+        - asset: assets/fonts/UbuntuMedium.ttf
+          weight: 500
+        - asset: assets/fonts/UbuntuBold.ttf
+          weight: 700
